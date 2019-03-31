@@ -1,0 +1,22 @@
+{
+	"name": "src",
+	"version": "1.0.0",
+	"description": "Assessment",
+	"main": "index.js",
+	"scripts": {
+		"test": "./node_modules/.bin/mocha --require ts-node/register ./test/**/*.test.ts"
+	},
+	"author": "Barrett Bolivar",
+	"license": "ISC",
+	"dependencies": {
+		"@types/chai": "^4.1.7",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^11.12.2",
+		"chai": "^4.2.0",
+		"mocha": "^6.0.2",
+		"node-fetch": "^2.3.0",
+		"supertest": "^4.0.2",
+		"ts-node": "^8.0.3",
+		"typescript": "^3.4.1"
+	}
+}
